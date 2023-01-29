@@ -34,3 +34,27 @@ container{
     display: flex;
     gap: 20px;
 }
+.header__content{
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.h1{
+   color: rgb(218, 218, 218); 
+   text-transform: uppercase;
+}
+.figure{
+    display: flex;
+    gap: 20px;
+}
+.item{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 61, 61);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
