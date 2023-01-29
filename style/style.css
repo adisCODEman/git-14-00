@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto ;
+    padding: 0 15px;
+}
+.header__nav{
+    background-color: rgb(255, 0, 187);
+    padding: 20px;
+}
+.header__nav-container{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aqua;
+}
+.header__nav-link{
+    font-size: 20px;
+   color: greenyellow;
+   text-transform: uppercase;
+}
+.header__nav-list{
+    display: flex;
+    gap: 20px;
+}
