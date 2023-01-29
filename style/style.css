@@ -58,3 +58,17 @@ container{
     background-color: rgb(255, 61, 61);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
+.main{
+    background-color: cadetblue;
+    height: 100vh;
+}
+.main__item{
+    width: 25%;
+    background-color: rgb(0, 255, 255);
+    height: 500px;
+}
+.main__block{
+    display: flex;
+    gap: 10px;
+    
+}
